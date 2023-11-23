@@ -48,7 +48,7 @@ Set-Cookie: __Host-name=value; Secure; Path=/; SameSite=None; Partitioned;
 Javascript:
 
 ```js
-Document.cookie="__Host-name=value; Secure; Path=/; SameSite=None; Partitioned;"
+document.cookie="__Host-name=value; Secure; Path=/; SameSite=None; Partitioned;"
 ```
 
 A partitioned third-party cookie is tied to the top-level site where it's initially set and cannot be accessed from elsewhere. This way cookies set by a third-party service can only be read within the same embedded context of the top-level site where they were initially set.
